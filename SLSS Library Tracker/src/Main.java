@@ -16,7 +16,7 @@ import javax.swing.JTextField;
 import javax.swing.JButton;
 import javax.swing.JLabel;
 import javax.swing.JTextPane;
-import com.apple.eawt.Application;
+//import com.apple.eawt.Application;
 import java.awt.Font;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
@@ -24,6 +24,7 @@ import java.util.concurrent.Executors;
 import java.util.concurrent.ScheduledExecutorService;
 import java.util.concurrent.TimeUnit;
 
+@SuppressWarnings("restriction")
 public class Main extends JFrame implements ActionListener {
 
 	private static final long serialVersionUID = 1L;

@@ -23,7 +23,7 @@ import javax.swing.JButton;
 import javax.swing.JLabel;
 import javax.swing.JTextPane;
 
-import com.apple.eawt.Application;
+//import com.apple.eawt.Application;
 
 import java.awt.Font;
 import java.awt.event.ActionEvent;
@@ -58,8 +58,8 @@ public class HomeScreen extends JFrame implements ActionListener {
 		JPanel frame = new JPanel();
 		setLocationRelativeTo(null);
 		setIconImage(new ImageIcon("images/icon.png").getImage());
-		Application.getApplication().setDockIconImage(
-				new ImageIcon("images/icon.png").getImage());
+	//	Application.getApplication().setDockIconImage(
+		//		new ImageIcon("images/icon.png").getImage());
 		getContentPane().setForeground(Color.DARK_GRAY);
 		getContentPane().setBackground(Color.DARK_GRAY);
 		setBounds(100, 100, 755, 534);
